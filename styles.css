@@ -1,1 +1,15 @@
 /* your styles will go here!! */
+img {
+    max-width: 100%;
+}
+h1 {
+color: #e71d1d;
+text-align: center;
+font-family: Sedgwick Ave;
+font-size: 85px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/*home*/
