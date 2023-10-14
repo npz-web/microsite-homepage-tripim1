@@ -3,16 +3,21 @@ img {
     max-width: 100%;
 }
 h1 {
-color: #e71d1d;
-text-align: center;
-font-family: Sedgwick Ave;
-font-size: 85px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #000;
+    font-family: Audiowide;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 416px;
+    height: 77px;
+    flex-shrink: 0;
 }
 
 /*home*/
 h2 {
     color: #e71d1d;
+}
+h2 .Motivate {
+ color: blue
 }
