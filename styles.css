@@ -1,23 +1,31 @@
-/* your styles will go here!! */
+/* global */
 body {
-    
+    background: linear-gradient(270deg, rgba(32, 160, 188, 0.65) 0%, rgba(178, 141, 193, 0.65) 100%);
 }
-img {
-    max-width: 100%;
+#Logo img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+nav {
+    background: #EF8D34;
+    padding: 20px;
 }
 header {
 
         }
 h1 {
-    color: #000;
+    color: #ffffff;
     font-family: Audiowide;
-    font-size: 64px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     width: 416px;
     height: 77px;
     flex-shrink: 0;
+    background: #EF8D34;
+    background-size: 70px 40px;
 }
 
 h2 {
@@ -29,5 +37,4 @@ h3 {
     }
 img {
     width: 70%;
-    padding-left: 50px;
 }
