@@ -9,7 +9,6 @@ body {
 }
 nav {
     background: #EF8D34;
-    padding: 20px;
 }
 header {
 
@@ -28,8 +27,11 @@ h1 {
     background-size: 70px 40px;
 }
 
-h2 {
-    color: purple
+# Itallbeginswithyou {
+    font-family: 'Lucida Grande';
+    width: 350px;
+    height: 300px;
+    padding-left: 100px;
    }
 
 h3 {
