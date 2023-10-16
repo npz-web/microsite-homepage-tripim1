@@ -8,11 +8,8 @@ body {
     margin: 10px;
 }
 nav {
-    background: #EF8D34;
-}
-header {
 
-        }
+}
 h1 {
     color: #ffffff;
     font-family: Audiowide;
@@ -24,19 +21,32 @@ h1 {
     height: 77px;
     flex-shrink: 0;
     background: #EF8D34;
-    background-size: 70px 40px;
+    background-size: 100%;
 }
 
-# Itallbeginswithyou {
+#You {
     font-family: 'Lucida Grande';
     width: 350px;
     height: 300px;
     padding-left: 100px;
+    background: white; padding:50px 20px;
    }
 
+#Where {
+    font-family: 'Lucida Grande';
+    width: 350px;
+    height: 300px;
+    padding-left: 100px;
+}
+
 h3 {
-    color: #e71d1d;
+    color: white;
+    font-family: Orbitron;
+    font-style: regular;
     }
+#emphasis {
+    color:#ffffff;
+}
 img {
     width: 70%;
 }
