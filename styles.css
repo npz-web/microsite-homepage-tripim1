@@ -1,7 +1,13 @@
 /* your styles will go here!! */
+body {
+    
+}
 img {
     max-width: 100%;
 }
+header {
+
+        }
 h1 {
     color: #000;
     font-family: Audiowide;
@@ -14,10 +20,14 @@ h1 {
     flex-shrink: 0;
 }
 
-/*home*/
 h2 {
+    color: purple
+   }
+
+h3 {
     color: #e71d1d;
-}
-h2 .Motivate {
- color: blue
+    }
+img {
+    width: 70%;
+    padding-left: 50px;
 }
