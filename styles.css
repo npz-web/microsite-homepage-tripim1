@@ -5,43 +5,80 @@ body {
 #Logo img {
     width: 40px;
     height: 40px;
-    margin: 5px;
+    margin-top: -2px;
+    margin-bottom: 5px;
+    margin-left: 2px;
     font-family:'Lucida Grande' ;
+    position: sticky;
 }
 #upper {
-    color:white;
-    display: grid;
-    text-align: end;
-    
+   color:white;
+    display: contents;
+   position: absolute;
+   top: 0px;
+   right: 9px;
+   
     
 }
+
 h1 {
     font-family: 'Audiowide';
     color: #ffffff;
-    font-size: 700%;
+    font-size: 125px;
     text-align: center;
-    border: 100px;
-    border-color: orange;
-  
+    position: absolute;
+    top: -40px;
+    right: 3px;
+    left: 5px;
+    z-index: -2 ;
+    border: 20px double #EF8D34 ;
+    border-radius: 100px;
+    border-style: ;
+    
+}
 
-}
-#img2 {
-    width: 100%;
-    position: relative;
-    opacity: 100%;
-    align-items: center;
-}
+    #It {
+        color: white;
+        font-family: Orbitron;
+        font-style: regular;
+        font-size: 60px;
+        letter-spacing: 1px;
+        word-spacing: normal;
+        position: relative;
+        top: 400px;
+        text-align:center;
+        
+        }
+    #Where {
+            color: white;
+            font-family: Orbitron;
+            font-style: regular;
+            font-size: 40px;
+            letter-spacing: 1px;
+            word-spacing: normal;
+            text-align:center;
+            position: relative;
+            top: 100px;
+
+            }
+      
 #img1 {
     width: 100%;
     position: relative;
     opacity: 100%;
     align-items: center;
+    position: relative;
+    top: 25%;
+    z-index:-1;
 }
 #para1 {
     font-family: 'Lucida Grande';
     width: 100%;
     color: white;
     align-content: space-around;
+    position:relative;
+    top: 60%;
+    z-index: 1;
 
    }
 
@@ -50,15 +87,9 @@ h1 {
     width: 100%;
     color: white;
     text-align: left;
+    position: relative;
+    top: 150px;
 
 }
 
-h3 {
-    color: white;
-    font-family: Orbitron;
-    font-style: regular;
-    font-size: 40px;
-    letter-spacing: 1px;
-    word-spacing: normal;
-    text-align:center;
-    }
+
