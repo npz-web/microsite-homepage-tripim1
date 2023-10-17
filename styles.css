@@ -48,10 +48,12 @@ h3 {
     color: white;
     font-family: Orbitron;
     font-style: regular;
+    font-size: 30px;
     }
 #emphasis {
     color:#ffffff;
 }
 img {
     width: 70%;
+    position: sticky;
 }
