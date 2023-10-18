@@ -1,5 +1,6 @@
 /* global */
 body {
+    margin:0;
     background: linear-gradient(270deg, rgba(32, 160, 188, 0.65) 0%, rgba(178, 141, 193, 0.65) 100%);
 }
 #Logo img {
@@ -18,32 +19,42 @@ body {
    top: 0px;
    box-align: end;
    
+   
     
 }
 
 h1 {
     font-family: 'Audiowide';
     color: #ffffff;
-    font-size: 125px;
+    font-size: 15vw;
+    margin:0;
+    position:absolute;
+    width: 100%;
+    left:0;
     text-align: center;
-    position: absolute;
-    top: -30px;
-    left: 10px;
-    z-index: -2 ;
-    border: 20px solid #EF8D34 ;
+
+    
 }
 
-#It {
-    color: white;
-    font-family: Orbitron;
-    font-style: regular;
-    font-size: 60px;
-    letter-spacing: 1px;
-    word-spacing: normal;
-    position: relative;
-    top: 500px;
-    text-align:center;
+#halfcircle {
+    width: 20vw;
+    height: 40vw;
+    background-color: #EF8D34;
+    border-radius: 0 20vw 20vw 0;
+  
+
 }
+#titlerectangle {
+    border: 3vw solid #EF8D34 ;
+    border-right: none;
+    width:80vw;
+    height: 20vw;
+}
+#title {
+    width:100%;
+    display: flex;
+}
+
 #Where {
     color: white;
     font-family: Orbitron;
@@ -63,32 +74,7 @@ h1 {
     top: 350px;
     z-index:-3;
 }
-#para1 {
-    font-family: 'Lucida Grande';
-    line-height: 20px;
-    width: 50%;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
-    color: orange;
-    align-content: space-around;
-    position:relative;
-    top: 60%;
-    z-index: 1;
-    background-color: white;
 
-    margin-right: 400px;
-
-   }
-
-#halfcircle {
-    position: relative;
-    left: 620px;
-    top:-19px;
-    width: 200px;
-    height: 250px;
-}
 #rectangle {
     position: relative;
     top: 200px;
@@ -106,4 +92,67 @@ h1 {
 
 }
 
+#It {
+    color: #EF8D34;
+    font-family: Orbitron;
+    font-style: regular;
+    font-size: 50px;
+    margin:0;
+    position: absolute;
+  top:10px;
+  right:-130px;
+    /* letter-spacing: 1px;
+    word-spacing: normal;
+    position: relative;
+    top: 120px;
+    left: -80px ;
+    z-index: 2;
+    text-align:center; */
+}
+#para1 {
+    font-family: 'Lucida Grande';
+    /* line-height: 20px;
+    width: 50%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    color:  #EF8D34;
+    /* align-content: space-around;
+    position:relative;
+    top: 60%;
+    z-index: 1;
+    background-color: white;
+    margin-right: 400px; */
 
+   }
+
+#YOU {
+    color:white;
+}
+#beginswithyou{
+display: flex;
+
+}
+#bwyimage{
+    background-image: url(mountain-climber.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    flex-grow: 1;
+    margin-top:70px
+}
+#bwycaption{
+    position: relative;
+    background-color: white;
+    max-width: 300px;
+    padding: 60px;
+}
+#bwyrect{
+    background-color: #EF8D34;
+    flex-basis: 40px;
+    margin-top: 70px;
+}
+#beginswithyou img{
+    transform: scaleX(-1);
+}
